@@ -1,7 +1,6 @@
-A arquitetura de software é um padrão de desenvolvimento criado em torno de principios e boas praticas no design de codigo.
-O intuito de toda arquitetura de software é garantir a estabilidade, crescimento e escalabilidade de um sistema.
+Arquitetura de software são padrões de desenvolvimento criado em torno de principios e boas praticas de design de codigo.
 
-Sendo:
+O intuito de toda arquitetura de software é garantir a estabilidade, crescimento e escalabilidade de um sistema, sendo:
 
 - Estabilidade: Poder de alterar fluxos já desenvolvidos sem que outros fluxos ligados a este parem de funcionar ou precisem ser re-escritos
 
