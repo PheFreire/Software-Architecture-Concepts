@@ -11,8 +11,14 @@ Sendo:
 
 Para que um padrão de desenvolvimento seja considerado uma arquitetura de software garantindo a estabilidade, crescimento e escalabilidade em um sistema, este deve ultilizar alguns principios de design de codigo, sendo os mais basicos:
 
-1 - Principio de responsabilidade unica -> ./descentralizacao.py
-2 - modularização 	 				    -> ./modularizacao/README.md
-3 - assinatura 		 				    -> ./assinatura/README.md
+1 - Principio de responsabilidade unica 
+	-- ./descentralizacao.py
+
+2 - modularização
+	-- ./modularizacao/README.md
+
+3 - assinatura 
+	-- ./assinatura/README.md
+
 4 - segregação de interface e inverção de dependencia e substituição de liskov
-										-> ./interface/README.md
+	-- ./interface/README.md
