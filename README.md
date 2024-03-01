@@ -21,3 +21,21 @@ Para que um padrão de desenvolvimento seja considerado uma arquitetura de softw
 
 4 - segregação de interface e inverção de dependencia e substituição de liskov
 	-- ./interface/README.md
+
+
+Conceitos SOLID:
+(S)ingle reponsability principle:	
+	Um fluxo deve ser dividido em sub-processos que implementão uma unica funcionalidade da regra de negocio deste fluxo
+
+(O)pen and close principle: 
+	uma função deve estar fechada para modificações e aberta para integrações
+
+(L)iskov Substitution: 
+	Toda classe filha deve seguir as assinaturas da classe mãe podendo assim substituir sua classe mãe sem gerar gargalos
+
+(I)nterface segregation: 
+	Um fluxo não deve possuir como dependência as implementações de suas funcionalidades, ele deve depender unicamente das assinaturas de suas funcionalidades e estas devem ser garantidas por meio de interfaces.
+
+(D)ependency Inversion: 
+	O desing de um fluxo não deve possuir funcionalidades estaticas, mas sim, receber como parametro as implementações de suas funcionalidades através de instancias de interfaces. Dessa forma o codigo se torna dinámico em suas implementações e de facil modificações futuras
+
