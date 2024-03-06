@@ -32,7 +32,7 @@ def fluxo_de_falar(animal: Animal):
     print(animal.call("nicole maneira barbie gostoso"))
 
 
-injecao = {
+bridge = {
     "gato": Gato(),
     "chachorro": Chachorro(),
     "pinto": Pinto(),
@@ -41,5 +41,5 @@ injecao = {
 
 with open("./bridge.json") as j:
     dict_json = json.load(j)
-    animal = injecao[dict_json["animal"]]
+    animal = bridge[dict_json["animal"]]
     fluxo_de_falar(animal)
